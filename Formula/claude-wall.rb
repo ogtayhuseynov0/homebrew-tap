@@ -1,26 +1,26 @@
 class ClaudeWall < Formula
   desc "Mission control for Claude Code — monitor all your AI coding agents"
   homepage "https://github.com/ogtayhuseynov0/claude-wall"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.0/claude-wall-macos-arm64"
-      sha256 "025c2dad97440753bf7de6933d0d5c8a5b5d296dc40871cb781c90238ea5e7b5"
+      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.1/claude-wall-macos-arm64"
+      sha256 "3eb0e342764ca3a6084953fe0d27f1bc59c8eb42bbf7b3505febe76ffed1d3c7"
     else
-      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.0/claude-wall-macos-amd64"
-      sha256 "58fc4d7da79c72e862573c4e015f56119b68b2e5faf4b0456221387e7dd51a35"
+      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.1/claude-wall-macos-amd64"
+      sha256 "364ad83cf29b20b73c113ec986de9224a75d7a5045b83d8dc975d2ed4b7e1747"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.0/claude-wall-linux-arm64"
-      sha256 "7676c6f8ff703ac665afd67b48e2fa8cdf1187697f1012f7d0552f4b2455ca2f"
+      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.1/claude-wall-linux-arm64"
+      sha256 "b0718c659f9d2e232caf39a9d8cb40a8fa5941fec6ed05e308f531dbbe0b10f3"
     else
-      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.0/claude-wall-linux-amd64"
-      sha256 "1b221d616a260d24384415d99d847bf5954e12155b6c88cc20a1f87c0c2e8470"
+      url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.4.1/claude-wall-linux-amd64"
+      sha256 "463c81c75d353a8911f61499b4b90e4fd3259c8e8b3700a9ad7ec925ca1e32e6"
     end
   end
 
