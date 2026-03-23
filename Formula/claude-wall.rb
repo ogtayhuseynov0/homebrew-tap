@@ -7,20 +7,20 @@ class ClaudeWall < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.3.0/claude-wall-macos-arm64"
-      sha256 "68328d29735a7474b6902710c9d7a98ad96175ffb343bbbe4cf8f0588830d907"
+      sha256 "4b70d00d8af60ba9791f17f88d97fcb31e62b293773916384d1d592db6f52ba2"
     else
       url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.3.0/claude-wall-macos-amd64"
-      sha256 "d56c3420d5de2681deb2faca101a94a384e10857ced8b6220badac45d83b3105"
+      sha256 "f9e609874346f3400310161e79d106266bc8050e874be324b2d7b68018bab047"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.3.0/claude-wall-linux-arm64"
-      sha256 "58efbb03987152bb0fa44b22259cff8bb77227e3a5968494c465626c95a1354e"
+      sha256 "cab91e8dd380290fd725b589e5bfacdfa4c91ed89c4fe719fa10625c680875cb"
     else
       url "https://github.com/ogtayhuseynov0/claude-wall/releases/download/v0.3.0/claude-wall-linux-amd64"
-      sha256 "0c2dc0496e2e7137054a9f25ea5b8e6e9479edb8e55ac56cfeecb8ff7f74f59e"
+      sha256 "59de8fe434e095bda408d439265bd50406df982724a075bbda67cecbda2246da"
     end
   end
 
